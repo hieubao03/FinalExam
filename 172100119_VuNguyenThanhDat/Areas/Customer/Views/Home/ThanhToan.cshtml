@@ -1,0 +1,45 @@
+﻿@model GioHangViewModel
+<div class="row" id="main" style="max-width:800px">
+    <div class="col-12">
+        <form class="row" method="post">
+            <div class="col-6 px-4" style="padding:10px 0; margin:4px">
+                <h4 class="text-success col-12 text-center fw-bold" style="margin-bottom:20px;">Kiểm tra thông tin</h4>
+                <div class="col-12">
+                    <label>Name</label>
+                    <input asp-for="@Model.HoaDon.Name" class="form-control" readonly aria-required="true">
+                </div>
+                <div class="col-12">
+                    <label class="m-1">PhoneNumber</label>
+                    <input asp-for ="@Model.HoaDon.PhoneNumber" class="form-control" readonly aria-required="true" />
+                </div>
+                <div class="col-12">
+                    <label class="m-1">Address</label>
+                    <input asp-for ="@Model.HoaDon.Address" class="form-control" readonly aria-required="true" />
+                </div>
+                <button id="registerSubmit" type="submit" class="my-4 w-100 col-12 btn btn-lg btn-primary">Thanh Toán</button>
+            </div>
+            <div class="col-6 row" style="border-radius:6px 6px 14px 14px; padding:10px 2px 2px 2px;background-color: #f8f2e8">
+                <h4 class="text-success col-6 fw-bold">Cart</h4>
+                <h4 class="text-success col-6 text-lg-end"><i class="fa-solid fa-cart-shopping"></i></h4>
+                <hr />
+                @foreach(var item in Model.DsGioHang)
+                {
+                    <div class="col-6">@item.SanPham.Name</div>
+                    <div class="col-6 text-lg-end">@String.Format("{0:0,0 vnđ}", item.TongGiaSP())</div>
+                    Model.HoaDon.Total += item.TongGiaSP();
+                }
+                <hr />
+                <div class="col-6 fw-bold">Tổng tiền:</div>
+                <div class="col-6 fw-bold text-lg-end">@String.Format("{0:0,0 vnđ}", Model.HoaDon.Total)</div>
+                <input asp-for="@Model.HoaDon.Total" type="hidden" />
+            </div>
+        </form>
+    </div>
+</div>
+
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

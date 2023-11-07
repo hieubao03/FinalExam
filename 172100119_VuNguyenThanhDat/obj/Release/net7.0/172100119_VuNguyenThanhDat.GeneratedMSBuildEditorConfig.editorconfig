@@ -1,0 +1,73 @@
+is_global = true
+build_property.TargetFramework = net7.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = _172100119_VuNguyenThanhDat
+build_property.RootNamespace = _172100119_VuNguyenThanhDat
+build_property.ProjectDir = D:\SVN3_DNTU\HK1_Nam3\LapTrinhWeb\test\172100119_VuNguyenThanhDat\
+build_property.RazorLangVersion = 7.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = D:\SVN3_DNTU\HK1_Nam3\LapTrinhWeb\test\172100119_VuNguyenThanhDat
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/TaiKhoan/DangKy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGFpS2hvYW5cRGFuZ0t5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Tuan01/GioiThieu.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVhbjAxXEdpb2lUaGlldS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Tuan02/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVhbjAyXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Tuan02/MayTinh.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVhbjAyXE1heVRpbmguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Tuan02/Profile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHVhbjAyXFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/SVN3_DNTU/HK1_Nam3/LapTrinhWeb/test/172100119_VuNguyenThanhDat/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-lfiyzlpjn8

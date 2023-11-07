@@ -1,0 +1,67 @@
+﻿@{
+	string dstl = "";int i = 1,idsp=Model.SP.Id;
+}
+@model SanPhamViewModel
+<div class="container" id="main" style="max-width:600px">
+	<h3>Cập nhật thể loại sản phẩm</h3>
+	
+	<form method="post" enctype="multipart/form-data">
+		<input asp-for="SP.Id" type="hidden"/>
+		@foreach(var item in Model.ListCacTheLoai)
+		{
+			dstl += item.TheLoai.Name + (i++ == Model.ListCacTheLoai.Count() ? "." : ", ");
+		}
+		<div class="form-group">
+			<lable asp-for="SP.Name">Tên sản phẩm</Lable>
+			<input asp-for="SP.Name" type="text" readonly class="form-control">
+			<lable asp-for="TheLoaiId">Danh sách thể loại</Lable>
+			<input type="text" readonly class="form-control" value="@dstl">
+		</div>
+		@if(Model.ListCacTheLoai.Count() == 1)
+		{
+			<div class="form-group">
+				<lable>Chức năng thêm thể loại</Lable>
+				<div class="py-2">
+					<select asp-for="TheLoaiId" asp-items="ViewBag.DsThemTL" class="form-control"></select>
+					<button type="submit" class="btn btn-primary form-control my-2">Thêm thể loại</button>
+				</div>
+			</div>
+		}
+		else
+		{
+			<form method="post" enctype="multipart/form-data">
+			<input asp-for="SP.Id" type="hidden"/>
+				<div class="form-group">
+					<lable>Chức năng thêm thể loại</Lable>
+					<div class="py-2">
+						<select asp-for="TheLoaiId" asp-items="ViewBag.DsThemTL" class="form-control"></select>
+						<button type="submit" class="btn btn-primary form-control my-2">Thêm thể loại</button>
+					</div>
+				</div>
+			</form>
+			<form method="post" enctype="multipart/form-data">
+			<input asp-for="SP.Id" type="hidden"/>
+				<div class="form-group">
+					<lable>Chức năng Xóa thể loại</Lable>
+					<div class="py-2">
+						<select asp-for="TheLoaiId" asp-items="ViewBag.DsXoaTL" class="form-control"></select>
+						<button type="submit" class="btn btn-primary form-control my-2">Xóa thể loại</button>
+					</div>
+				</div>
+			</form>
+		}
+		<a asp-action="Upsert" asp-route-id="@idsp" class="btn btn-primary">Thoát</a>
+	</form>
+</div>
+
+@section scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

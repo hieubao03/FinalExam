@@ -1,0 +1,25 @@
+﻿<li>
+    <a href="#store">
+        <i class="fa-solid fa-store"></i>
+        CỬA HÀNG
+        <i class="fa-solid fa-caret-down"></i>
+    </a>
+    <ul class="navsub px-0">
+        @foreach(var item in Model)
+        {
+            <li>
+                <a asp-action="BanhKem" asp-route-id="@item.Id">
+                    <i class="fa-regular fa-star fa-beat"></i>
+                    @item.Name</a>
+            </li>
+
+            @* <li>
+                <a asp-action="BanhKem" asp-route-id="@item.Id">
+                    <i class="fa-regular fa-star fa-beat"></i>
+                    @item.Name
+                </a>
+            </li> *@
+        }
+        <div class="row_top"></div>
+    </ul>
+</li>

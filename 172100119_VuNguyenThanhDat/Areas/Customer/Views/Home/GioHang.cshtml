@@ -1,0 +1,52 @@
+﻿@model GioHangViewModel
+
+<div id="main">
+    <h2>
+        <span class="store_buy">
+            <span>GIỎ HÀNG</span>
+            <i class="fa-solid fa-cart-shopping"></i>
+        </span>
+    </h2>
+    <div class="Bill_wrap">
+        <div class="Bill Thongtin">
+            <div class="sanpham">SẢN PHẨM</div>
+            <div class="dongia">ĐƠN GIÁ</div>
+            <div class="sl">SỐ LƯỢNG</div>
+            <div class="tongtien">TỔNG</div>
+        </div>
+        @foreach(var item in Model.DsGioHang)
+        {
+            Model.HoaDon.Total += item.TongGiaSP();
+            <div class="Bill CacSP">
+                <div class="sanpham">
+                        <img src="~/@item.SanPham.Image" />
+                        <p>@item.SanPham.Name</p>
+                    <a asp-action="Xoa" asp-route-giohangId="@item.Id"><i class="fa-regular fa-circle-xmark" style="color: rgb(76, 226, 70)"></i></a>
+                </div>
+                <div class="dongia">@String.Format("{0:0,0 vnđ}",item.SanPham.Gia)</div>
+                <div class="sl">
+                    <a asp-action="Giam" asp-route-giohangId="@item.Id"><i class="fa-solid fa-caret-left fa-2xl" style="color: #2dddc0"></i></a>
+                    @item.Quantity
+                    <a asp-action="Tang" asp-route-giohangId="@item.Id"><i class="fa-solid fa-caret-right fa-2xl"  style="color: #2dddc0"></i></a>
+                </div>
+                <div class="tongtien">
+                    @String.Format("{0:0,0 vnđ}", item.TongGiaSP())
+                    </div>
+            </div>
+        }
+    </div>
+    <form method="post" class="pay">
+        <div class="pay_left">
+            <p>THÔNG TIN QUÝ KHÁCH: HỌ TÊN, ĐỊA CHỈ, NƠI NHẬN HÀNG, THỜI GIAN VÀ SỐ ĐIỆN THOẠI</p>
+            <textarea name="note" id="note" cols="30" rows="4"></textarea>
+        </div>
+        <div class="pay_right">
+            <p>TỔNG:</p>
+            <h3>@String.Format("{0:0,0 vnđ}", Model.HoaDon.Total)</h3>
+            <a asp-action="ThanhToan" type="submit">THANH TOÁN</a>
+        </div>
+    </form>
+</div>
+@section cssHeavenICE_1{
+    <link rel="stylesheet" href="~/css/GioHang_2.css" />
+}

@@ -1,0 +1,25 @@
+﻿<div id="banner"></div>
+<div id="main">
+    <h2>
+        <span class="store_buy">
+            <span>@ViewBag.theloai</span>
+            <i class="fa-solid fa-cake-candles"></i>
+        </span>
+    </h2>
+    <div class="_wrap">
+        @foreach (var item in ViewBag.DsSanPham)
+        {
+            <a asp-action="Detail" asp-route-sanphamId="@item.Id" class="item">
+                <div>
+                    <img src="~/@item.Image" />
+                    <h3>@item.Name</h3>
+                    <p>@item.Gia VND</p>
+                    <button>Mua<i class="fa-solid fa-cart-shopping"></i></button>
+                </div>
+            </a>
+        }
+    </div>
+</div>
+@section cssHeavenICE_1{
+    <link rel="stylesheet" href="~/css/Store_buy_2.css" />
+}

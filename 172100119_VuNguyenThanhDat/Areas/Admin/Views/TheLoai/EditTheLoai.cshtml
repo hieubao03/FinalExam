@@ -1,0 +1,43 @@
+﻿@{
+}
+@model TheLoai
+<div class="container" id="main" style="max-width:600px">
+	<h3>Chỉnh sửa thể loại</h3>
+	
+	<form method="post" enctype="multipart/form-data">
+		<div asp-validation-summary="All" class="text-danger"></div>
+
+		<div class="form-group">
+			<lable asp-for="Name">Tên thể loại </Lable>
+			<input asp-for="Name" type="text" class="form-control">
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<lable asp-for="DateCreated">Ngày tạo </lable>
+			<input asp-for="DateCreated" type="date" class="form-control" >
+			<span asp-validation-for="DateCreated" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<lable>Ảnh</lable>
+			<input name="FileImage" type="file" class="form-control" accept=".jpg, .png, .jpeg" 
+				onchange="document.getElementById('ShowImage').src = window.URL.createObjectURL(this.files[0])">
+			<img  id="ShowImage" src="~/@Model.Image" width="150" class="mt-4 mb-4" />
+			<input asp-for="Image" type="hidden">
+		</div>
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">Chỉnh sửa</button>
+			<a asp-asp-controller="TheLoai" asp-action="Index" class="btn btn-primary">Hủy</a>
+		</div>
+	</form>
+</div>
+@section scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

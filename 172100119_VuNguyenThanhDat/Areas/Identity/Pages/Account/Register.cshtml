@@ -1,0 +1,90 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Đăng Ký";
+}
+
+
+<div class="row" id="main" style="max-width:600px">
+    <h1 class="text-center text-success">@ViewData["Title"]</h1>
+    <div class="col-12">
+        <form class="row" id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <h2 class="text-success">Tạo tài khoản mới</h2>
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+            <div class=" col-6">
+                <label asp-for="Input.Name">Name</label>
+                <input asp-for="Input.Name" class="form-control" autocomplete="username" aria-required="true"> 
+                <span asp-validation-for="Input.Name" class="text-danger"></span> 
+            </div>
+            <div class=" col-6">
+                <label asp-for="Input.Email" class="m-1">Email</label>
+                <input asp-for="Input.Email" class="form-control" autocomplete="" aria-required="true" />
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <div class=" col-6">
+                <label asp-for="Input.PhoneNB" class="m-1">PhoneNumber</label>
+                <input asp-for="Input.PhoneNB" class="form-control" autocomplete="" aria-required="true" />
+            </div>
+            <div class=" col-6">
+                <label asp-for="Input.Address" class="m-1">Address</label>
+                <input asp-for="Input.Address" class="form-control" autocomplete="" aria-required="true" />
+            </div>
+            <div class=" col-6">
+                <label asp-for="Input.Password" class="m-1">Password</label>
+                <input asp-for="Input.Password" class="form-control " autocomplete="new-password" aria-required="true" />
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <div class=" col-6 pb-4">
+                <label asp-for="Input.ConfirmPassword" class="m-1">Confirm Password</label>
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <div class="form-floating col-12 pb-4">
+                <select asp-for="Input.Role" asp-items="@Model.Input.RoleList" class="form-select p-1">
+                </select>
+            </div>
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary ">Đăng Ký</button>
+        </form>
+    </div>
+   @*  <div class="col-6 col-md-offset-2" style="display: none ">
+        <section>
+            <h3>Use another service to register.</h3>
+            <hr />
+            @{
+                if ((Model.ExternalLogins?.Count ?? 0) == 0)
+                {
+                    <div>
+                        <p>
+                            There are no external authentication services configured. See this <a href="https://go.microsoft.com/fwlink/?LinkID=532715">article
+                            about setting up this ASP.NET application to support logging in via external services</a>.
+                        </p>
+                    </div>
+                }
+                else
+                {
+                    <form id="external-account" asp-page="./ExternalLogin" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="form-horizontal">
+                        <div>
+                            <p>
+                                @foreach (var provider in Model.ExternalLogins!)
+                                {
+                                    <button type="submit" class="btn btn-primary" name="provider" value="@provider.Name" title="Log in using your @provider.DisplayName account">@provider.DisplayName</button>
+                                }
+                            </p>
+                        </div>
+                    </form>
+                }
+            }
+        </section>
+    </div> *@
+</div>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
+@section bootstrap{
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+    <link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

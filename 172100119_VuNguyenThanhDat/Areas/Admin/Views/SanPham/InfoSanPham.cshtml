@@ -1,0 +1,54 @@
+﻿@{
+	string dstl = "";int i = 1;
+}
+@model SanPhamViewModel
+<div class="container" id="main" style="max-width:600px">
+	<h3>Xóa sản phẩm</h3>
+	
+	<form method="post" enctype="multipart/form-data">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<input asp-for="SP.Id" type="hidden"/>
+		<div class="form-group">
+			<lable asp-for="SP.Name">Tên sản phẩm</Lable>
+			<input asp-for="SP.Name" type="text" readonly class="form-control">
+		</div>
+		<div class="form-group">
+			<lable asp-for="SP.Gia">Giá</Lable>
+			<input asp-for="SP.Gia" type="number"readonly min="1" class="form-control">
+		</div>
+		@foreach(var item in Model.ListCacTheLoai)
+		{
+			dstl += item.TheLoai.Name + (i++ == Model.ListCacTheLoai.Count() ? "." : ",");
+		}
+		<div class="form-group">
+			<lable asp-for="TheLoaiId">Danh sách thể loại</Lable>
+			<input type="text" readonly class="form-control" value="@dstl">
+		</div>
+		<input asp-for="ListCacTheLoai" type="hidden"/>
+		<div class="form-group">
+			<lable asp-for="SP.NhaCungCap.Name">Nhà cung cấp</Lable>
+			<input asp-for="SP.NhaCungCap.Name" type="text"readonly class="form-control">
+		</div>
+		<div class="form-group">
+			<lable>Ảnh</lable>
+			<img id="ShowImage" src="~/@Model.SP.Image" width="150" class="mt-4 mb-4" />
+			<input asp-for="SP.Image" type="hidden" value="@Model.SP.Image">
+		</div>
+
+		<div class="form-group">
+			<a asp-action="Index" class="btn btn-primary">Thoát</a>
+		</div>
+	</form>
+</div>
+
+@section scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

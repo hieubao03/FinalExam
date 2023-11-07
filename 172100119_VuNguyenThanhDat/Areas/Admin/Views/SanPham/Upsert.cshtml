@@ -1,0 +1,72 @@
+﻿@{
+	string dstl = "";int i = 1;
+}
+@model SanPhamViewModel
+<div class="container" id="main" style="max-width:600px">
+	<h3>@(Model.SP.Id == 0 ? "Thêm sản phẩm" : "Cập nhật sản phẩm")</h3>
+	
+	<form method="post" enctype="multipart/form-data">
+		<div asp-validation-summary="All" class="text-danger"></div>
+		<input asp-for="SP.Id" type="hidden"/>
+		<div class="form-group">
+			<lable asp-for="SP.Name">Tên sản phẩm</Lable>
+			<input asp-for="SP.Name" type="text" class="form-control">
+			<span asp-validation-for="SP.Name" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<lable asp-for="SP.Gia">Giá</Lable>
+			<input asp-for="SP.Gia" type="number" min="1" class="form-control">
+			<span asp-validation-for="SP.Gia" class="text-danger"></span>
+		</div>
+		@if (Model.SP.Id == 0) // them moi
+		{
+			<div class="form-group">
+				<lable asp-for="TheLoaiId">Danh sách thể loại</Lable>
+				<select asp-for="TheLoaiId" asp-items="ViewBag.DsTheLoai" class="form-control"></select>
+			</div>
+		}
+		else // chinh sua
+		{
+			//dung de tao 1 chuoi cac the loai cua san pham
+			foreach(var item in Model.ListCacTheLoai)
+			{
+				dstl += item.TheLoai.Name + (i++ == Model.ListCacTheLoai.Count() ? "." : ",");
+			}
+			<div class="form-group">
+				<lable asp-for="TheLoaiId">Danh sách thể loại</Lable>
+				<div class="form-group row px-2">
+					<input type="text" readonly class="col-6 border-0" value="@dstl">
+					<a asp-action="AddTheLoai" asp-route-id="@Model.SP.Id" class="col-6 btn btn-primary">Thêm/Xóa thể loại</a>
+				</div>
+			</div>
+		}
+		<div class="form-group">
+			<lable asp-for="SP.NhaCungCapId">Nhà cung cấp</Lable>
+			<select asp-for="SP.NhaCungCapId" asp-items="@ViewBag.DsNhaCungCap" class="form-control"></select>
+		</div>
+		<div class="form-group">
+			<lable>Ảnh</lable>
+			<input name="FileImage" type="file" class="form-control" accept=".jpg, .png, .jpeg" 
+				onchange="document.getElementById('ShowImage').src = window.URL.createObjectURL(this.files[0])">
+			<img id="ShowImage" src="~/@Model.SP.Image" width="150" class="mt-4 mb-4" />
+			<input asp-for="SP.Image" type="hidden" value="@Model.SP.Image">
+		</div>
+
+		<div class="form-group">
+			<button type="submit" class="btn btn-primary">@(Model.SP.Id == 0 ? "Thêm mới" : "Cập nhật")</button>
+			<a asp-action="Index" class="btn btn-primary">Hủy</a>
+		</div>
+	</form>
+</div>
+
+@section scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

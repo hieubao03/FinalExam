@@ -1,0 +1,50 @@
+﻿@model SanPhamViewModel
+	<div id="main" class="container" style="max-width:1200px">
+	<table class="table text-center">
+		<thead>
+			<tr>
+				<th>Tên sản phẩm</th>
+				<th>Giá</th>
+				<th>Ảnh mô tả</th>
+				<th>Nhà Cung Cấp</th>
+				<th>Thể loại</th>
+				<th>Chức năng</th>
+			</tr>
+		</thead>
+		@foreach (var item in Model.ListSanPham)
+		{
+			<tbody>
+				<tr>
+					<td width="15%">@item.Name</td>
+					<td width="15%">@String.Format("{0:0,0 vnđ}", item.Gia)</td>
+					<td width="20%">
+						<img src="~/@item.Image" width="150" >
+					</td>
+					<td width="15%">@item.NhaCungCap.Name</td>
+					<td width="10%">
+						@foreach(var tl in Model.ListCacTheLoai)
+						{
+							if (tl.SanPhamId == item.Id)
+							{
+								<p>@tl.TheLoai.Name</p>
+							}
+						}
+					</td>
+					<td width="25%">
+						<a asp-action="Upsert" asp-route-id="@item.Id" class="btn btn-primary">Sửa</a>
+						<a asp-action="InfoSanPham" asp-route-id="@item.Id" class="btn btn-primary">Chi tiết</a>
+						<a asp-action="DeleteSanPham" asp-route-id="@item.Id" class="btn btn-primary">Xóa</a>
+					</td>
+				</tr>
+			</tbody>
+		}
+	</table>
+<a asp-action="Upsert" class="btn btn-primary">Thêm mới</a>
+</div>
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}
+

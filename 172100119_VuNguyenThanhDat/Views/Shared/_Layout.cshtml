@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @RenderSection("bootstrap", required: false)
+    @RenderSection("cssHeavenICE_1", required: false)
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+    <title>HeavenICE</title>
+    <script src="~/Script/HeavenICE.js"></script>
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <div class="header_wrap">
+                <div class="logo">
+                    <h1><a asp-area="Customer" asp-controller="Home" asp-action="Index">HeavenICE</a></h1>
+                </div>
+                <button onclick="show()" class="Icon_nav"><i class="fa-solid fa-bars"></i></button>
+                <ul class="nav">
+                    <vc:admin-user></vc:admin-user>
+                    <partial name="_LoginPartial" />
+                </ul>
+            </div>
+        </div>
+
+        @RenderBody()
+
+        <div id="footer">
+            <div class="overlay"></div>
+            <div class="footer_wrap">
+                <div class="item">
+                    <h1>HeavenICE</h1>
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>5 Đ. Nguyễn Khuyến, Trảng Dài, Thành phố Biên Hòa,
+                        Đồng Nai
+                    </p>
+                    <p><i class="fa-solid fa-phone"></i>0903066778</p>
+                    <p>
+                        <a style="margin-left: 0" href=""><i class="fa-solid fa-envelope"></i>HICE2023@gmail.com</a>
+                    </p>
+                </div>
+                <div class="item">
+                    <h3>MENU</h3>
+                    <a asp-action="Index">TRANG CHỦ</a>
+                    <a href="#store">CỬA HÀNG</a>
+                    <a asp-action="GioHang">GIỎ HÀNG</a>
+                    <a asp-action="About">About us</a>
+                </div>
+                <div class="item">
+                    <h3>LIÊN HỆ</h3>
+                    <a href=""><i class="fa-brands fa-facebook"></i>Facebook</a>
+                    <a href=""><i class="fa-brands fa-twitter"></i>Twitter</a>
+                    <a href=""><i class="fa-brands fa-instagram"></i>Instagram</a>
+                    <a href=""><i class="fa-brands fa-youtube"></i>Youtube</a>
+                </div>
+            </div>
+        </div>
+
+        
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

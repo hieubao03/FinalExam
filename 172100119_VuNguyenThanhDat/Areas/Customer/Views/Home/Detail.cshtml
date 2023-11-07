@@ -1,0 +1,52 @@
+﻿@{
+    string dstl = ""; int i = 0,j=1;
+}
+@model GioHang
+<form method="post">
+    <div id="main">
+        <h2>
+            <span class="store_buy">
+                <span>Thông tin sản phẩm</span>
+                <i class="fa-solid fa-cake-candles"></i>
+            </span>
+        </h2>
+        <div class="_wrap">
+            <div class="item">
+                <div class="item_image">
+                    <img src="~/@Model.SanPham.Image" />
+                    <h4 style="margin-top:16px;padding:10px;color:#fff;text-align:center;background-color: #3d1a1a;border-radius:10px 10px 0 0">Các sản phẩm liên quan</h4>
+                    <div class="related_item">
+                        @foreach (var item in ViewBag.DsSanPham) //
+                        {
+                            if (i++ < 3 && item.SanPham.Id != Model.SanPham.Id)
+                            {
+                                <a asp-action="Detail" asp-route-sanphamId="@item.SanPham.Id">
+                                    <img src="~/@item.SanPham.Image" />
+                                </a>
+                            }
+                        }
+                        @foreach (var item in ViewBag.DsTheLoai) //
+                        {
+                            dstl += item.TheLoai.Name + (j++ == ViewBag.sltl ? "." : ", ");
+                        }
+                    </div>
+                </div>
+                <div class="info_item">
+                    <h3>Tên Sản phẩm: @Model.SanPham.Name</h3>
+                    <div>Nhà cung cấp: @Model.SanPham.NhaCungCap.Name</div>
+                    <div>Thể loại: @dstl</div>
+                    <div>Giá bán: @String.Format("{0:0,0 vnđ}", @Model.SanPham.Gia)</div>
+                    <label>Số lượng: </label>
+                    <input asp-for="Quantity" type="number" min="1" step="1" value="1" required />
+                    <div class="Submit_item">
+                        <button type="submit">Thêm vào giỏ<i class="fa-solid fa-cart-shopping"></i></button>
+                        <button asp-action="Index">Thoát</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+@section cssHeavenICE_1{
+    <link rel="stylesheet" href="~/css/detail.css" />
+}

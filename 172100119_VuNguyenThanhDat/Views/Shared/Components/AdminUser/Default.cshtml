@@ -1,0 +1,34 @@
+﻿@if (ViewBag.RoleName != "Admin")
+{
+    <li>
+        <a asp-area="Customer" asp-controller="Home" asp-action="Index"><i class="fa-solid fa-house"></i>TRANG CHỦ</a>
+    </li>
+    <li>
+        <a asp-area="Customer" asp-controller="Home" asp-action="About"><i class="fa-solid fa-circle-info"></i>ABOUT US</a>
+    </li>
+    <vc:the-loai></vc:the-loai>
+    <li>
+        <a asp-area="Customer" asp-controller="Home" asp-action="GioHang"><i class="fa-solid fa-cart-shopping"></i>GIỎ HÀNG</a>
+    </li>
+}
+else
+{
+    <li>
+        <a asp-area="Admin" asp-controller="SanPham" asp-action="Index">Sản phẩm</a>
+    </li>
+    <li>
+        <a asp-area="Admin" asp-controller="TheLoai" asp-action="Index">Thể loại</a>
+    </li>
+    <li>
+        <a asp-area="Admin" asp-controller="TheLoai" asp-action="DsNhaCungCap">Nhà cung cấp</a>
+    </li>
+    <li>
+        <a asp-area="Admin" asp-controller="SanPham" asp-action="DonHang">Đơn hàng</a>
+    </li>
+    <li>
+        <a asp-area="Admin" asp-controller="SanPham" asp-action="KhachHang">Khách hàng</a>
+    </li>
+}
+
+
+

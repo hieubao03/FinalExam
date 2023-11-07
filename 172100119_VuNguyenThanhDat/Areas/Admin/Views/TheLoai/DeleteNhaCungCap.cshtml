@@ -1,0 +1,42 @@
+﻿@{
+}
+@model NhaCungCap
+<div class="container" id="main">
+	<h3>Bạn có chắc chắn muốn xóa thể loại</h3>
+	
+	<form method="post" enctype="multipart/form-data">
+		<div asp-validation-summary="All" class="text-danger"></div>
+
+		<div class="form-group">
+			<lable asp-for="Name">Tên thể loại </Lable>
+			<input asp-for="Name" type="text" readonly class="form-control">
+			<span asp-validation-for="Name" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<lable asp-for="Address">Địa chỉ</lable>
+			<input asp-for="Address" type="text"readonly class="form-control" >
+			<span asp-validation-for="Address" class="text-danger"></span>
+		</div>
+		<div class="form-group">
+			<lable asp-for="PhoneNumber">Số điện thoại</lable>
+			<input asp-for="PhoneNumber" type="text"readonly class="form-control" >
+			<span asp-validation-for="PhoneNumber" class="text-danger"></span>
+		</div>
+		<div class="form-group py-2">
+			<button type="submit" class="btn btn-primary">Xóa</button>
+			<a asp-asp-controller="TheLoai" asp-action="DsNhaCungCap" class="btn btn-primary">Hủy</a>
+		</div>
+	</form>
+</div>
+
+@section scripts{
+	@{
+		<partial name="_ValidationScriptsPartial"/>
+	}
+}
+@section bootstrap{
+	<link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+}
+@section cssHeavenICE_1{
+	<link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

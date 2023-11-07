@@ -1,0 +1,64 @@
+﻿@model SanPhamViewModel
+<div id="banner"></div>
+<div id="main">
+    <div id="store">
+        <div class="store_wrap">
+            <a href="#cake" class="item">
+                <div class="item_wrap top">
+                    <img src="~/images/bk/bk1.jpg" />
+                    <h3>BÁNH KEM</h3>
+                </div>
+            </a>
+            <a href="#cookie" class="item">
+                <div class="item_wrap top">
+                    <img src="~/images/bq/bq1.jpg" />
+                    <h3>BÁNH QUY</h3>
+                </div>
+            </a>
+            <a href="#ice_cream" class="item">
+                <div class="item_wrap">
+                    <img src="~/images/k/k1.jpg" />
+                    <h3>KEM TƯƠI</h3>
+                </div>
+            </a>
+            <a href="#desert" class="item">
+                <div class="item_wrap">
+                    <img src="~/images/tm/tm1.jpg" />
+                    <h3>TRÁNG MIỆNG</h3>
+                </div>
+            </a>
+        </div>
+    </div>
+    @foreach (var itemtl in ViewBag.listtheloai)
+    {
+        int i = 0;
+        <div id="cake">
+            <h2><a asp-action="BanhKem" asp-route-id="@itemtl.Id">@itemtl.Name</a></h2>
+            <div class="_wrap">
+                @foreach (var itemctl in Model.ListCacTheLoai)
+                {
+                    if (itemctl.TheLoaiId == itemtl.Id)
+                    {
+                        @foreach (var itemsp in Model.ListSanPham)
+                        {
+                            if (itemsp.Id == itemctl.SanPhamId && i++ < 3)
+                            {
+                                <a asp-action="Detail" asp-route-sanphamId="@itemsp.Id" class="item">
+                                    <img src="~/@itemsp.Image"/>
+                                    <div>
+                                        <h3>@itemsp.Name</h3>
+                                        <p>@String.Format("{0:0,0 vnđ}", @itemsp.Gia)</p>
+                                        <button>Mua<i class="fa-solid fa-cart-shopping"></i></button>
+                                    </div>
+                                </a>
+                            }
+                        }
+                    }
+                }
+            </div>
+        </div>
+    }
+</div>
+@section cssHeavenICE_1{
+    <link rel="stylesheet" href="~/css/HeavenICE_1.css" />
+}

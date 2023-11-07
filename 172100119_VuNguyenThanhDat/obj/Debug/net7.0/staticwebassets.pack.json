@@ -1,0 +1,729 @@
+{
+  "Files": [
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\172100119_VuNguyenThanhDat.bundle.scp.css",
+      "PackagePath": "staticwebassets\\172100119_VuNguyenThanhDat.bundle.scp.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\0241283e-ace9-4a46-ac56-38a1e72b30d0_bq7.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\0241283e-ace9-4a46-ac56-38a1e72b30d0_bq7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\02c2afe4-682f-4338-b5a6-e043df36e727_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\02c2afe4-682f-4338-b5a6-e043df36e727_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\0746e554-821c-4ce4-b0ab-18703454b2dc_tm2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\0746e554-821c-4ce4-b0ab-18703454b2dc_tm2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\0bdb1708-a779-4070-8a43-367b59e3c4cc_k2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\0bdb1708-a779-4070-8a43-367b59e3c4cc_k2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\11a070fc-cb32-4c4e-bb73-39c4ae680deb_bk3.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\11a070fc-cb32-4c4e-bb73-39c4ae680deb_bk3.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\121386e5-d7a9-44f1-a7fe-b0cc68d3e534_bq6.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\121386e5-d7a9-44f1-a7fe-b0cc68d3e534_bq6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\193112f1-90a9-4ba0-8cb8-d0455d70ac6d_k2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\193112f1-90a9-4ba0-8cb8-d0455d70ac6d_k2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\1ea18669-e087-4480-a286-2715d071c812_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\1ea18669-e087-4480-a286-2715d071c812_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\22dd526e-7ff2-4c37-b433-c82639d89c6f_tm6.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\22dd526e-7ff2-4c37-b433-c82639d89c6f_tm6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\30567520-6844-414c-af36-7fbd4209fb1d_k6.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\30567520-6844-414c-af36-7fbd4209fb1d_k6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\32c19244-69f5-4e83-8a34-b0de0060d1d2_bq4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\32c19244-69f5-4e83-8a34-b0de0060d1d2_bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\37e1a3dc-43d8-46d3-93ab-48f47a5bec89_bk8.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\37e1a3dc-43d8-46d3-93ab-48f47a5bec89_bk8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\3b5b0b93-dddd-4e8b-9feb-07581eda9e46_bk2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\3b5b0b93-dddd-4e8b-9feb-07581eda9e46_bk2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\3eb2fe15-f5a9-4b7c-bdac-8c4adfafc713_bk9.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\3eb2fe15-f5a9-4b7c-bdac-8c4adfafc713_bk9.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\448a57ee-da19-4d6c-b941-8a099afd996f_bq4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\448a57ee-da19-4d6c-b941-8a099afd996f_bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\55162ee3-7a79-4571-b87c-9df87a554f88_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\55162ee3-7a79-4571-b87c-9df87a554f88_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\55a267d6-c986-4cbb-b1aa-e408279a0e6c_bk8.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\55a267d6-c986-4cbb-b1aa-e408279a0e6c_bk8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\5b595c18-617f-4c1f-824c-69412bb6cee8_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\5b595c18-617f-4c1f-824c-69412bb6cee8_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\639ea2fb-ee7c-433a-b6ef-516006eb4160_tm9.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\639ea2fb-ee7c-433a-b6ef-516006eb4160_tm9.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\6e0b52b5-5e54-40c7-ae0d-a985f063c03f_1ea18669-e087-4480-a286-2715d071c812_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\6e0b52b5-5e54-40c7-ae0d-a985f063c03f_1ea18669-e087-4480-a286-2715d071c812_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\70fb460a-75d3-499c-9ad8-cf61f272ac6b_bq4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\70fb460a-75d3-499c-9ad8-cf61f272ac6b_bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\71c3d1df-84d7-49a4-a0e5-1a23e358877c_k2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\71c3d1df-84d7-49a4-a0e5-1a23e358877c_k2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\75b5368b-e727-4946-967a-55afbe1a3bc3_tm1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\75b5368b-e727-4946-967a-55afbe1a3bc3_tm1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\764d7cc3-e59d-4e88-9b54-581beabe2b62_tm1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\764d7cc3-e59d-4e88-9b54-581beabe2b62_tm1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\790fa3c4-8bf0-426f-a07f-f8edc82580aa_bq8.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\790fa3c4-8bf0-426f-a07f-f8edc82580aa_bq8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\7964516b-c2a5-41be-83f4-46e2d6031f67_bq4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\7964516b-c2a5-41be-83f4-46e2d6031f67_bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\7ba4068e-d244-4763-8dde-20b61520f042_bk2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\7ba4068e-d244-4763-8dde-20b61520f042_bk2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\81ddeb65-c4f5-4a63-9c27-83b870110ccb_tm3.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\81ddeb65-c4f5-4a63-9c27-83b870110ccb_tm3.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\82d46a19-fc5a-469a-b188-4a39f82ec34b_bk2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\82d46a19-fc5a-469a-b188-4a39f82ec34b_bk2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\8667c6ee-8b64-4bb6-9248-ece3dc20a397_bq6.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\8667c6ee-8b64-4bb6-9248-ece3dc20a397_bq6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\895a68f1-c5ec-4d68-8cf1-f2354be3e24b_tm5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\895a68f1-c5ec-4d68-8cf1-f2354be3e24b_tm5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\89fe68d9-fcf9-4902-8bd8-f8c2f6921367_tm6.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\89fe68d9-fcf9-4902-8bd8-f8c2f6921367_tm6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\8c52f8b1-fa41-4ebd-bbb4-c54d04544681_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\8c52f8b1-fa41-4ebd-bbb4-c54d04544681_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\8cb98087-cb1d-476c-be3b-da5138a241a9_tm4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\8cb98087-cb1d-476c-be3b-da5138a241a9_tm4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\945f148a-f30f-44e0-9008-11d116b4e246_bq1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\945f148a-f30f-44e0-9008-11d116b4e246_bq1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\99de3bfb-0b1a-4a49-8b88-5f95c10ced22_k8.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\99de3bfb-0b1a-4a49-8b88-5f95c10ced22_k8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\9b18d2ed-d978-4b15-a65d-beefd6634382_bk11.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\9b18d2ed-d978-4b15-a65d-beefd6634382_bk11.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\UserDefault.png",
+      "PackagePath": "staticwebassets\\ImageFiles\\UserDefault.png"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\a571af23-8212-4709-a085-675f591e9865_bq7.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\a571af23-8212-4709-a085-675f591e9865_bq7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\ae6acf00-50cf-424c-abe1-96d055a0169e_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\ae6acf00-50cf-424c-abe1-96d055a0169e_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\b5a9d2de-1118-4dd1-bcc3-cec30f8923bb_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\b5a9d2de-1118-4dd1-bcc3-cec30f8923bb_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\b79fe905-2d86-4d5f-90ba-56fac59ed25e_tm4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\b79fe905-2d86-4d5f-90ba-56fac59ed25e_tm4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\b96f2adf-e0e8-43cd-ac6b-6a7c1fd7961f_tm4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\b96f2adf-e0e8-43cd-ac6b-6a7c1fd7961f_tm4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\c092c9de-e41b-406f-9ec2-a42885834f28_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\c092c9de-e41b-406f-9ec2-a42885834f28_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\c114fdbc-4e22-4b92-9c30-5e98e606a0d8_tm2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\c114fdbc-4e22-4b92-9c30-5e98e606a0d8_tm2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\c3532c6c-dbfb-4c0a-b51e-46d1077369d2_tm2.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\c3532c6c-dbfb-4c0a-b51e-46d1077369d2_tm2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\c49929f6-f1c3-433f-a7d6-9a0304afd9e4_bk11.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\c49929f6-f1c3-433f-a7d6-9a0304afd9e4_bk11.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\c63ae07f-35ce-4f0e-a1ef-8295d0a87989_tm1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\c63ae07f-35ce-4f0e-a1ef-8295d0a87989_tm1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\cbaf7d1f-96c0-4fc2-8e93-bff1c7cadb9b_k5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\cbaf7d1f-96c0-4fc2-8e93-bff1c7cadb9b_k5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\cdd8534f-13fa-485e-ae06-c86a8adcfd5b_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\cdd8534f-13fa-485e-ae06-c86a8adcfd5b_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\cf809102-94c9-41eb-bfb4-977187737a87_bq1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\cf809102-94c9-41eb-bfb4-977187737a87_bq1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\d2132a69-7201-4c69-ab7f-5ad154acc2e1_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\d2132a69-7201-4c69-ab7f-5ad154acc2e1_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\d2a69435-8f87-4cc3-9350-3d42f319acdd_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\d2a69435-8f87-4cc3-9350-3d42f319acdd_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\d37747db-87a1-40d1-832e-604b85b2ebb0_k5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\d37747db-87a1-40d1-832e-604b85b2ebb0_k5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\d39b3cff-463f-4702-9012-45d339b3f486_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\d39b3cff-463f-4702-9012-45d339b3f486_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\d87be7c3-6d88-46bf-9d02-49d4a8b90b82_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\d87be7c3-6d88-46bf-9d02-49d4a8b90b82_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\dd12b2cc-8040-46ad-8a51-eb48179ad392_k5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\dd12b2cc-8040-46ad-8a51-eb48179ad392_k5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\dd93042c-1cc6-40fe-9ca6-f6485f9c827a_bq1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\dd93042c-1cc6-40fe-9ca6-f6485f9c827a_bq1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\de5fb2ea-6a44-43f1-81c9-9653d3d10e12_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\de5fb2ea-6a44-43f1-81c9-9653d3d10e12_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\de612eb9-a955-47af-8949-75747f9d5922_bq1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\de612eb9-a955-47af-8949-75747f9d5922_bq1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\e9956723-3f7b-4d4e-85a2-4d9645cb9ee8_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\e9956723-3f7b-4d4e-85a2-4d9645cb9ee8_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\ea1da73e-e14d-48cd-93b8-d97c4d4769f2_k1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\ea1da73e-e14d-48cd-93b8-d97c4d4769f2_k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\edc698a7-6d03-4153-a1da-51f413fae9c9_tm5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\edc698a7-6d03-4153-a1da-51f413fae9c9_tm5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\f1aed2f0-e019-4597-a4ee-14019cb86a11_bq4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\f1aed2f0-e019-4597-a4ee-14019cb86a11_bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\f2b0f089-7b41-4fd1-bab9-38937d7cdc19_tm1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\f2b0f089-7b41-4fd1-bab9-38937d7cdc19_tm1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\f6a372f9-650d-4a1a-bc84-0e1b36e740ae_bk5.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\f6a372f9-650d-4a1a-bc84-0e1b36e740ae_bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\f6fd8e5c-31f9-4c6a-9f51-89df7d4b48e2_bk1.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\f6fd8e5c-31f9-4c6a-9f51-89df7d4b48e2_bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\f948bd8f-dc7b-4041-925d-f2db31e19afd_bk8.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\f948bd8f-dc7b-4041-925d-f2db31e19afd_bk8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\fcc7a163-3f1b-43aa-b971-ac0273747eb8_bk9.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\fcc7a163-3f1b-43aa-b971-ac0273747eb8_bk9.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\ImageFiles\\fda25021-f2a3-4f6d-9c56-278bb14b7e3e_tm4.jpg",
+      "PackagePath": "staticwebassets\\ImageFiles\\fda25021-f2a3-4f6d-9c56-278bb14b7e3e_tm4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\Script\\HeavenICE.js",
+      "PackagePath": "staticwebassets\\Script\\HeavenICE.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\anh\\Lopxe_tuan03.jpg",
+      "PackagePath": "staticwebassets\\anh\\Lopxe_tuan03.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\anh\\default_TheLoai.png",
+      "PackagePath": "staticwebassets\\anh\\default_TheLoai.png"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\anh\\h1.jpg",
+      "PackagePath": "staticwebassets\\anh\\h1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\anh\\h2.jpg",
+      "PackagePath": "staticwebassets\\anh\\h2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\About_2.css",
+      "PackagePath": "staticwebassets\\css\\About_2.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\GioHang_2.css",
+      "PackagePath": "staticwebassets\\css\\GioHang_2.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\HeavenICE_1.css",
+      "PackagePath": "staticwebassets\\css\\HeavenICE_1.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\Store_buy_2.css",
+      "PackagePath": "staticwebassets\\css\\Store_buy_2.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\detail.css",
+      "PackagePath": "staticwebassets\\css\\detail.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk1.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk10.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk10.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk11.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk11.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk12.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk12.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk2.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk3.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk3.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk5.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk7.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk8.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bk\\bk9.jpg",
+      "PackagePath": "staticwebassets\\images\\bk\\bk9.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq1.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq4.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq5.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq6.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq7.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\bq\\bq8.jpg",
+      "PackagePath": "staticwebassets\\images\\bq\\bq8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\h1.jpg",
+      "PackagePath": "staticwebassets\\images\\h1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\h4.jpg",
+      "PackagePath": "staticwebassets\\images\\h4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\h5.png",
+      "PackagePath": "staticwebassets\\images\\h5.png"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k1.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k2.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k5.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k6.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k7.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\k\\k8.jpg",
+      "PackagePath": "staticwebassets\\images\\k\\k8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm1.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm1.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm10.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm10.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm11.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm11.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm12.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm12.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm2.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm2.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm4.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm4.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm5.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm5.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm6.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm6.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm7.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm7.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm8.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm8.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\images\\tm\\tm9.jpg",
+      "PackagePath": "staticwebassets\\images\\tm\\tm9.jpg"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "E:\\LapTrinhWeb\\tuan7\\New folder\\Hoc_web\\172100119_VuNguyenThanhDat\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.172100119_VuNguyenThanhDat.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.172100119_VuNguyenThanhDat.props",
+      "PackagePath": "build\\172100119_VuNguyenThanhDat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.172100119_VuNguyenThanhDat.props",
+      "PackagePath": "buildMultiTargeting\\172100119_VuNguyenThanhDat.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.172100119_VuNguyenThanhDat.props",
+      "PackagePath": "buildTransitive\\172100119_VuNguyenThanhDat.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
